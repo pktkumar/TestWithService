@@ -20,7 +20,23 @@ import com.kumar.Util.Person;
 @RestController
 public class MyController {
 	
-	
+	/*to add first time
+
+	git status
+	git add .
+	git commit -m "first commit"
+	git remote add origin https://github.com/pktkumar/TestWithService.git
+	git push origin master
+	 
+	 
+
+	to update repositories
+
+	git add .
+	git commit -m "updated with swagger"
+	git push origin master
+
+*/	
 	
 	@Autowired
 	MyService myService;
@@ -48,12 +64,14 @@ public class MyController {
 	   }
 	   
 	   
-//added for swagger Test	   
+/*
+ * //added for swagger Test
+ * 	   
 	   @RequestMapping(value = "/Test")
 	   public String testValue(){
 		   
 		   return"no value";
 	   }
-	   
+	   */
 	   
 }
